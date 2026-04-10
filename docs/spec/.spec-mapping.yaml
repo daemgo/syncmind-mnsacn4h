@@ -1,0 +1,33 @@
+specHash: "erp-v1.0.0-20260410"
+generatedAt: "2026-04-10T00:00:00+08:00"
+sourceMode: spec
+modules:
+  - moduleId: dashboard
+    moduleName: 经营看板
+    locked: false
+    files:
+      - src/routes/index.tsx
+  - moduleId: finance-general-ledger
+    moduleName: 财务管理-总账
+    locked: false
+    files:
+      - src/routes/finance/general-ledger/index.tsx
+      - src/routes/finance/general-ledger/$id.tsx
+      - src/types/finance.ts
+      - src/mock/finance.ts
+  - moduleId: procurement-orders
+    moduleName: 采购管理-采购订单
+    locked: false
+    files:
+      - src/routes/procurement/orders/index.tsx
+      - src/routes/procurement/orders/$id.tsx
+      - src/types/procurement.ts
+      - src/mock/procurement.ts
+  - moduleId: sales-orders
+    moduleName: 销售管理-销售订单
+    locked: false
+    files:
+      - src/routes/sales/orders/index.tsx
+      - src/routes/sales/orders/$id.tsx
+      - src/types/sales.ts
+      - src/mock/sales.ts
